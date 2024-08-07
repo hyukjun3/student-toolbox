@@ -1,12 +1,12 @@
-# Student Toolbox
+# 📚 Student Toolbox 🧰
 
 Student Toolbox is a web application designed to make student life easier by organizing their schedule, calculating their grades, and managing the tasks that they need to complete.
 
-## Getting Started
+## Getting Started 🚀
 
 These instructions will get you a copy of Student Toolbox up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Prerequisites ✔️
 
 Install the following software:
 
@@ -20,7 +20,11 @@ Install the following software:
 
 ```bash
 
+
+
 node -v
+
+
 
 ```
 
@@ -30,7 +34,11 @@ node -v
 
 ```bash
 
+
+
 npm -v
+
+
 
 ```
 
@@ -44,7 +52,11 @@ npm -v
 
 ```bash
 
+
+
 git --version
+
+
 
 ```
 
@@ -69,20 +81,24 @@ A step-by-step series of examples that tell you how to get a development environ
 3.  **Install dependencies:**
 
 ```bash
+
 npm install
+
 ```
 
 ### Running
 
 ```bash
-npm run dev
+
+npm run  dev
+
 ```
 
 ## Running the tests
 
 ## Deployment
 
-## Built With
+## Built With 🛠️
 
 - [Next.js](https://nextjs.org/) - The React framework used
 
