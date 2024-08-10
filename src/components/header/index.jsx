@@ -19,7 +19,7 @@ export default function index() {
           className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}
         ></div>
       </button>
-      <Nav />
+      {isActive && <Nav />}
     </>
   );
 }

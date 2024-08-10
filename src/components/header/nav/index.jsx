@@ -1,12 +1,15 @@
 import styles from "./style.module.scss";
-import { useState } from "react";
 import Link from "./link/index";
 
 export default function index() {
   const navItems = [
     { title: "Home", href: "/" },
-    { title: "About", href: "/about" },
-    { title: "Contact", href: "/contact" },
+    { title: "GPA Calculator", href: "/gpa" },
+    { title: "To-Do List", href: "/todo" },
+    {
+      title: "Time Table Planner",
+      href: "/timetable",
+    },
   ];
 
   return (
@@ -14,7 +17,7 @@ export default function index() {
       <div className={styles.body}>
         <div className={styles.nav}>
           <div className={styles.header}>
-            <p>Navigation</p>
+            <p>Put search bar here</p>
           </div>
           {navItems.map((item, index) => {
             return <Link data={{ ...item, index }} />;
