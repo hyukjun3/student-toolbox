@@ -8,7 +8,12 @@ export default function index() {
 
   return (
     <>
-      <div className={styles.button}>
+      <div
+        onClick={() => {
+          setIsActive(!isActive);
+        }}
+        className={styles.button}
+      >
         <div
           className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}
         ></div>
