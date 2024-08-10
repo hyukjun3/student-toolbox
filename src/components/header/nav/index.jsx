@@ -1,7 +1,7 @@
 import styles from "./style.module.scss";
 import Link from "./link/index";
 
-export default function index() {
+export default function Index() {
   const navItems = [
     { title: "Home", href: "/" },
     { title: "GPA Calculator", href: "/calculator" },

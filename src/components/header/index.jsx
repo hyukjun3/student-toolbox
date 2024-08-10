@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 import { useState } from "react";
 import Nav from "./nav/index";
 
-export default function index() {
+export default function Index() {
   const [isActive, setIsActive] = useState(false);
 
   return (
